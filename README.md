@@ -16,8 +16,14 @@ You need to write a Python program that:
 3.	Calculates and displays the total bill.
 
 # Code:
-
+```
+items = {'coffee':60,"sandwich":120,"cake":80}
+a=input("what you want ?? ")
+b=int(input("quantity ?? "))
+print(items.get(a)*b)
+```
 # OUTPUT:
+<img width="1443" height="101" alt="image" src="https://github.com/user-attachments/assets/3c2c22af-b709-4d8b-b33d-335980042759" />
 
 
 # Question 2:
@@ -45,5 +51,23 @@ Grade = A
 
 
 # Code:
+```
+a=int(input())
+b=int(input())
+c=int(input())
+avg=(a+b+c)/3
+print(avg)
+if(avg>90):
+    print ("a+")
+elif(avg>75 and avg < 89):
+    print("a")    
+elif(avg>60 and avg< 74):
+    print("b")
+elif (avg>40 and avg< 59):
+    print ("c")
+else:
+    print("fail")
+```
 
 # OUTPUT:
+![WhatsApp Image 2025-11-08 at 11 24 15_c41c0cdb](https://github.com/user-attachments/assets/722abe9d-ea4a-48c5-97e6-e4ac08bf1727)
